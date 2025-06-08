@@ -5,10 +5,10 @@ You can use a mix of assembly codes and numbers to set the bytes. Assembly codes
 Comments can be added using "#".  
 ![](../.assets/comment.png)
 
-Additionally, the <span style="color: #c54d5e">CONST</span> keyword can be used to name a value within a specific program.  
+Additionally, the `CONST` keyword can be used to name a value within a specific program.  
 ![](../.assets/const.png)
 
-<span style="color: #c54d5e">LABEL</span> assigns a name to the byte offset of the line it was inserted on. This is especially useful for naming jump destinations.
+`LABEL` assigns a name to the byte offset of the line it was inserted on. This is especially useful for naming jump destinations.  
 ![](../.assets/label.png)
 
 You can add, subtract, multiply, integer divide, modulo, OR, AND or XOR values together using +, -, \*, /, %, |, & or ^ respectively.
@@ -16,7 +16,7 @@ You can add, subtract, multiply, integer divide, modulo, OR, AND or XOR values t
 Breakpoints can be added by clicking to the left of a line number. The program will automatically pause at breakpoints when running.  
 ![](../.assets/breakpoint.png)
 
-Breakpoints can also be added to any of the linked components, pausing the program when that state is changed. Click on the state and you will see the red dot.
+Breakpoints can also be added to any of the linked components, pausing the program when that state is changed. Click on the state and you will see the red dot.  
 ![](../.assets/breakpoint_state.png)
 
 Finally, values can be specified in binary with the prefix 0b (so 5 could be 0b0101) and hex with the prefix 0x (so 15 would be 0x0f)
